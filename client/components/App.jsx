@@ -2,11 +2,12 @@ import React from 'react'
 
 import ThingListContainer from '../containers/ThingListContainer'
 import ThingDetailContainer from '../containers/ThingDetailContainer'
+import HomePage from './containers/HomePage'
 
 export default () => {
   return (
     <div>
-      <h1>Things</h1>
+      <HomePage />
       <ThingListContainer />
       <ThingDetailContainer />
     </div>
