@@ -4,12 +4,10 @@ import ThingListContainer from '../containers/ThingListContainer'
 import ThingDetailContainer from '../containers/ThingDetailContainer'
 import HomePage from './HomePage'
 
-export default () => {
+export default() => {
   return (
-    <div>
+    <div className="container">
       <HomePage />
-      <ThingListContainer />
-      <ThingDetailContainer />
     </div>
   )
 }

@@ -6,8 +6,9 @@ export default() => {
       <div className="left-third-container">
         <div className="logo-container">
           <svg width="100" height="100">
-            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow"/>
+            <circle cx="50" cy="50" r="40" fill="rgba(0,0,0,0.2)"/>
           </svg>
+          <a href="" className="login">Login / Sign Up</a>
         </div>
         <div className="nav-container">
           <div className="nav-div">
@@ -27,7 +28,13 @@ export default() => {
           <p>The Mock Up Shop© All Rights Reserved.</p>
         </div>
       </div>
-      <div className="item-container"></div>
+      <div className="right-two-third-container">
+        <div className="item-container"></div>
+        <div className="item-container"></div>
+        <div className="item-container"></div>
+        <div className="item-container"></div>
+        <div className="item-container"></div>
+      </div>
     </div>
   )
 }
