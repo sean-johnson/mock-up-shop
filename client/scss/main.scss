@@ -1,7 +1,17 @@
-$font-stack:    Helvetica, sans-serif;
-$primary-color: yellow;
+$font-heading: 'Rakkas', cursive;
+$font-body: 'Karla', sans-serif;
+$primary-color: #1B2D2A;
+$primary-bg-color: #E8E9EB;
 
 body {
-  font: 100% $font-stack;
+  font-family: $font-body;
   color: $primary-color;
+  background-color: $primary-bg-color;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $font-heading;
 }

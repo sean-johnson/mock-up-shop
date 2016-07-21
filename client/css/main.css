@@ -1,3 +1,10 @@
 body {
-  font: 100% Helvetica, sans-serif;
-  color: yellow; }
+  font-family: "Karla", sans-serif;
+  color: #1B2D2A;
+  background-color: #E8E9EB; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Rakkas", cursive; }
