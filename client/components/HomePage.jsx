@@ -29,11 +29,14 @@ export default() => {
         </div>
       </div>
       <div className="right-two-third-container">
-        <div className="item-container"></div>
-        <div className="item-container"></div>
-        <div className="item-container"></div>
-        <div className="item-container"></div>
-        <div className="item-container"></div>
+        <div id="items-container">
+          <div className="item-container"></div>
+          <div className="item-container"></div>
+          <div className="item-container"></div>
+          <div className="item-container"></div>
+          <div className="item-container"></div>
+          <div className="item-container"></div>
+        </div>
       </div>
     </div>
   )
